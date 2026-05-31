@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Recast Inline — rephrase text anywhere, on-device</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <header class="hero">
+      <h1 class="logo">R</h1>
+      <h2>Recast Inline</h2>
+      <p class="tagline">
+        Rephrase, fix, and reshape your writing in any app — with a single hotkey.
+        Runs entirely on-device with Apple Intelligence. No accounts, no cloud, no data leaves your Mac.
+      </p>
+      <a class="download-btn"
+         href="https://github.com/Dirtymac/recastinline-site/releases/latest/download/RecastInline.dmg">
+        Download for macOS
+      </a>
+      <p class="download-note">Free internal test build · ad-hoc signed · ~latest release</p>
+    </header>
+
+    <section class="card requirements">
+      <h3>Requirements</h3>
+      <ul>
+        <li><strong>macOS 26</strong> or later.</li>
+        <li>An <strong>Apple Intelligence–capable Mac</strong> with Apple Intelligence turned on
+            (the rephrasing runs on the built-in on-device model).</li>
+      </ul>
+    </section>
+
+    <section class="card install">
+      <h3>Install (first launch takes 2 extra steps)</h3>
+      <p>
+        This is an internal test build, so it isn't signed with an Apple Developer ID yet.
+        macOS Gatekeeper will block the first launch and may say the app is
+        <em>"damaged"</em> or from an <em>"unidentified developer."</em> That's expected — here's how to open it.
+      </p>
+      <ol>
+        <li>Open the downloaded <code>RecastInline.dmg</code> and drag
+            <strong>Recast Inline</strong> into your <strong>Applications</strong> folder.</li>
+        <li>
+          Clear the download flag so it will open. Pick one:
+          <ul>
+            <li>
+              <strong>Terminal (most reliable):</strong> paste this and press Return —
+              <pre><code>xattr -dr com.apple.quarantine /Applications/RecastInline.app</code></pre>
+              then double-click the app.
+            </li>
+            <li>
+              <strong>No Terminal:</strong> try to open the app once, then go to
+              <em>System Settings → Privacy &amp; Security</em>, scroll down, and click
+              <strong>Open Anyway</strong>.
+            </li>
+          </ul>
+        </li>
+        <li>
+          When prompted, grant <strong>Accessibility</strong> permission
+          (<em>System Settings → Privacy &amp; Security → Accessibility</em>). This is required
+          for the global hotkey to type the rephrased text back into your app.
+        </li>
+      </ol>
+      <p class="hint">
+        Heads-up: because test builds are ad-hoc signed, you may need to re-grant Accessibility
+        after installing a new version.
+      </p>
+    </section>
+
+    <section class="card usage">
+      <h3>How to use it</h3>
+      <ol>
+        <li>Select some text in any app.</li>
+        <li>Press <kbd>⌥</kbd><kbd>⌘</kbd><kbd>R</kbd> (or pick an action from the menu-bar
+            <strong>R</strong> icon / the Services menu).</li>
+        <li>Recast Inline rewrites your selection in place.</li>
+      </ol>
+    </section>
+
+    <footer>
+      <p>Found a bug or have feedback? Reply to whoever sent you this link. Thanks for testing! 💛</p>
+    </footer>
+  </main>
+</body>
+</html>
