@@ -33,6 +33,6 @@ download button (`releases/latest/download/RecastInline.dmg`) always points to t
 so the HTML never needs editing per release.
 
 ## Notes
-- The DMG is an ad-hoc-signed, un-notarized test build — the install steps on the page walk
-  testers through the one-time Gatekeeper bypass.
+- The DMG is Developer ID–signed and notarized by Apple, so it launches with no Gatekeeper
+  warning — the install steps are just drag-to-Applications + grant Accessibility.
 - Don't commit the DMG into this repo; it's served as a Release asset.

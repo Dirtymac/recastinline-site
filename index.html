@@ -32,40 +32,18 @@
     </section>
 
     <section class="card install">
-      <h3>Install (first launch takes 2 extra steps)</h3>
-      <p>
-        This is an internal test build, so it isn't signed with an Apple Developer ID yet.
-        macOS Gatekeeper will block the first launch and may say the app is
-        <em>"damaged"</em> or from an <em>"unidentified developer."</em> That's expected — here's how to open it.
-      </p>
+      <h3>Install</h3>
       <ol>
         <li>Open the downloaded <code>RecastInline.dmg</code> and drag
             <strong>Recast Inline</strong> into your <strong>Applications</strong> folder.</li>
-        <li>
-          Clear the download flag so it will open. Pick one:
-          <ul>
-            <li>
-              <strong>Terminal (most reliable):</strong> paste this and press Return —
-              <pre><code>xattr -dr com.apple.quarantine /Applications/RecastInline.app</code></pre>
-              then double-click the app.
-            </li>
-            <li>
-              <strong>No Terminal:</strong> try to open the app once, then go to
-              <em>System Settings → Privacy &amp; Security</em>, scroll down, and click
-              <strong>Open Anyway</strong>.
-            </li>
-          </ul>
-        </li>
+        <li>Double-click <strong>Recast Inline</strong> to launch it. It's signed with an
+            Apple Developer ID and notarized by Apple, so it opens normally — no security warnings.</li>
         <li>
           When prompted, grant <strong>Accessibility</strong> permission
           (<em>System Settings → Privacy &amp; Security → Accessibility</em>). This is required
           for the global hotkey to type the rephrased text back into your app.
         </li>
       </ol>
-      <p class="hint">
-        Heads-up: because test builds are ad-hoc signed, you may need to re-grant Accessibility
-        after installing a new version.
-      </p>
     </section>
 
     <section class="card usage">
