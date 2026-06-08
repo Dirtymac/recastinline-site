@@ -528,6 +528,20 @@ kbd {
   border-top: 1px solid var(--border);
   background: var(--surface-soft);
 }
+.bmc {
+  display: block;
+  text-align: center;
+  padding: 26px 24px 2px;
+}
+.bmc img {
+  height: 48px;
+  width: auto;
+  transition: transform 0.15s ease, filter 0.15s ease;
+}
+.bmc img:hover {
+  transform: translateY(-2px);
+  filter: brightness(0.97);
+}
 .footer-inner {
   max-width: 1040px;
   margin: 0 auto;
