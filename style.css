@@ -528,19 +528,29 @@ kbd {
   border-top: 1px solid var(--border);
   background: var(--surface-soft);
 }
-.bmc {
-  display: block;
-  text-align: center;
-  padding: 26px 24px 2px;
+.btn-bmc {
+  background: #ffdd00;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.14);
 }
-.bmc img {
-  height: 48px;
-  width: auto;
-  transition: transform 0.15s ease, filter 0.15s ease;
-}
-.bmc img:hover {
-  transform: translateY(-2px);
+.btn-bmc:hover {
   filter: brightness(0.97);
+  box-shadow: 0 12px 26px rgba(0, 0, 0, 0.18);
+}
+.btn-bmc .bmc-logo {
+  height: 26px;
+  width: auto;
+  display: block;
+}
+/* The two buttons in the Get started row are exactly the same size. */
+.gs-download .btn-primary,
+.gs-download .btn-bmc {
+  box-sizing: border-box;
+  width: 300px;
+  height: 56px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 24px;
 }
 .footer-inner {
   max-width: 1040px;
