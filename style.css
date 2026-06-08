@@ -529,20 +529,19 @@ kbd {
   background: var(--surface-soft);
 }
 .btn-bmc {
-  background: #ffdd00;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.14);
   display: inline-flex;
   align-items: center;
-  padding: 16px 26px; /* same vertical padding as .btn-primary → same height */
+  line-height: 0;
+  transition: transform 0.08s ease, filter 0.15s ease;
 }
-.btn-bmc:hover {
-  filter: brightness(0.97);
-  box-shadow: 0 12px 26px rgba(0, 0, 0, 0.18);
-}
-.btn-bmc .bmc-logo {
-  height: 20px;
+.btn-bmc img {
+  height: 52px; /* matches the Download button height; width follows naturally */
   width: auto;
   display: block;
+}
+.btn-bmc:hover {
+  transform: translateY(-1px);
+  filter: brightness(1.03);
 }
 .footer-inner {
   max-width: 1040px;
