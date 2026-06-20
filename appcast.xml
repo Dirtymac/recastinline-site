@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Recast Inline</title>
+    <link>https://dirtymac.github.io/recastinline-site/appcast.xml</link>
+    <description>Updates for Recast Inline.</description>
+    <language>en</language>
+    <item>
+      <title>Version 0.2</title>
+      <sparkle:version>1</sparkle:version>
+      <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <pubDate>Sat, 20 Jun 2026 04:23:56 +0000</pubDate>
+      <enclosure url="https://github.com/Dirtymac/recastinline-site/releases/download/v0.2/RecastInline.dmg"
+                 sparkle:edSignature="wYnrc7MS3EfJ8hApmu94o1L1HRe84InNzRtuBzde+rN2wGC3CviWQmGd2EOi/92C/56HyZN1cbkIJuBOGMDyAQ=="
+                 length="990077"
+                 type="application/octet-stream" />
+    </item>
+  </channel>
+</rss>
