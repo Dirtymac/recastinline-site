@@ -6,12 +6,12 @@
     <description>Updates for Recast Inline.</description>
     <language>en</language>
     <item>
-      <title>Version 0.3</title>
-      <sparkle:version>38</sparkle:version>
-      <sparkle:shortVersionString>0.3</sparkle:shortVersionString>
+      <title>Version 0.4</title>
+      <sparkle:version>39</sparkle:version>
+      <sparkle:shortVersionString>0.4</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-      <pubDate>Tue, 23 Jun 2026 05:44:44 +0000</pubDate>
-      <enclosure url="https://github.com/Dirtymac/recastinline-site/releases/download/v0.3/RecastInline.dmg" sparkle:edSignature="xozibsiQFD6twWCYJXFgVKew4WD6z8D8vK8Tz5cxB5LkT6bgvdGJxKfwYA9x9i9XayASFW4tpWfTeYlS7FuoDA==" length="2461389" type="application/octet-stream" />
+      <pubDate>Tue, 23 Jun 2026 06:18:27 +0000</pubDate>
+      <enclosure url="https://github.com/Dirtymac/recastinline-site/releases/download/v0.4/RecastInline.dmg" sparkle:edSignature="xiX/gt2i7n4FHmedia4Ho7tt/u6fYOZx/ubefHuca0hHMfcFhYOLtwNUBM64Qj46KAHBbitjZT5eLUSoXhZQDQ==" length="2263464" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
